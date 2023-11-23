@@ -1,0 +1,40 @@
+
+
+
+
+***********************     INSTRUCTIONS ON HOW TO RUN THE PROGRAM     ************************* 
+
+For this project we used the cross compiling environment MCB32 specified by the course. To compile the program, you need to open a MCB32 Terminal on your computer. Connect the Uno32 + Basic IO Shield to your computer with an USB cable. Wait a few seconds then type the following into the terminal: 
+
+		make
+
+followed by
+
+		make install
+
+If the project fails to compile, please try to specify the serial number for your device. 
+
+	Linux: This is normally /dev/ttyUSB0 
+	Windows: In MSYS2, this is normally /dev/ttyS2 
+	Mac: This is normally /dev/cu.usbserial-* (replace * with something)
+
+Then type the make install + path in your terminal window. For example: 
+
+		make install TTYDEV=/dev/tty.usbserial-A503WGL7
+
+
+
+
+
+
+
+***********************     INSTRUCTIONS ON HOW TO PLAY THE GAME     ************************* 
+
+The game will automatically start when the snake appears on the screen. When the game is over, your score will appear on the screen. To change the direction of the snake, the buttons are in order:
+
+	BTN4:	LEFT
+	BTN3:	UP
+	BTN2:	DOWN
+	BTN1:	RIGHT
+
+To start a new game, press the reset button on the Uno32 board. 
